@@ -7,6 +7,12 @@ stack:
 - tailwind css (css utilities)
 - zustand + immer (state management)
 
+## usage
+
+```console
+$ npx degit a-marquez/nextjs-template my-app
+```
+
 ## references
 - [https://medium.com/nextjs/how-to-use-material-ui-with-nextjs-and-react-18-6c054ceacf77](https://medium.com/nextjs/how-to-use-material-ui-with-nextjs-and-react-18-6c054ceacf77)
 - [https://mui.com/material-ui/guides/interoperability/#tailwind-css](https://mui.com/material-ui/guides/interoperability/#tailwind-css)
