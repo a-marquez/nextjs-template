@@ -3,7 +3,13 @@
 stack:
 - typescript
 - next.js + react
-- tailwind css (css utilities/theming)
+- material ui (uses emotion by default)
+- tailwind css (css utilities)
+
+## references
+- [https://medium.com/nextjs/how-to-use-material-ui-with-nextjs-and-react-18-6c054ceacf77](https://medium.com/nextjs/how-to-use-material-ui-with-nextjs-and-react-18-6c054ceacf77)
+- [https://mui.com/material-ui/guides/interoperability/#tailwind-css](https://mui.com/material-ui/guides/interoperability/#tailwind-css)
+
 
 ## Next.js Documentation
 
