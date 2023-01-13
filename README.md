@@ -5,6 +5,7 @@ stack:
 - next.js + react
 - material ui (uses emotion by default)
 - tailwind css (css utilities)
+- zustand + immer (state management)
 
 ## references
 - [https://medium.com/nextjs/how-to-use-material-ui-with-nextjs-and-react-18-6c054ceacf77](https://medium.com/nextjs/how-to-use-material-ui-with-nextjs-and-react-18-6c054ceacf77)

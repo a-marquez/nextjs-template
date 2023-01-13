@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Paper from '@mui/material/Paper'
 import Counter from '../components/Counter'
+import Greeter from '../components/Greeter'
 
 export default function Home() {
   return (
@@ -19,13 +21,21 @@ export default function Home() {
             <li>nextjs + react</li>
             <li>material ui (uses emotion by default)</li>
             <li>tailwind css (css utilities)</li>
+            <li>zustand + immer (state management)</li>
           </ul>
         </section>
         
-        <section>
-          <b>Counter</b> 
-          <Counter initialCount={3} />
-        </section>
+        <Paper className='p-4' elevation={5}>
+          <section className='pb-10'>
+            <b>Counter</b> 
+            <Counter />
+          </section>
+
+          <section>
+            <b>Greeter</b>
+            <Greeter />
+          </section>
+        </Paper>
       </main>
     </>
   )
